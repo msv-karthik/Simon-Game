@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+h3,p{
+    margin-top: 20px;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#indianred{
+    background-color: indianred;
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#mediumslateblue{
+    background-color: mediumslateblue;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    opacity: 0.7;
+}
